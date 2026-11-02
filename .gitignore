@@ -1,0 +1,45 @@
+# .NET build outputs
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Python virtual environments and cache
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/appsettings.*.local.json
+
+# Runtime files and generated analysis output
+**/uploads/
+**/storage/
+**/extracted_images/
+**/rendered_pages/
+**/artifacts/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local database / backup files
+*.sql
+*.dump
+*.bak
